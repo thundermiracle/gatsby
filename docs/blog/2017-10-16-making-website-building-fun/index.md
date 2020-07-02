@@ -40,24 +40,24 @@ and use it like an HTML element?
 
 Compare this with the minimum code necessary for the original headroom.js.
 
-#### HTML
+## HTML
 
 ```html
 <header class="headroom"><h1>header content</h1></header>
 ```
 
-#### JavaScript
+## JavaScript
 
 ```js
 // grab the element
 var myElement = document.querySelector("header")
 // construct an instance of Headroom, passing the element
 var headroom = new Headroom(myElement)
-// initialise
+// initialize
 headroom.init()
 ```
 
-#### CSS
+## CSS
 
 ```css
 .headroom {
@@ -82,7 +82,7 @@ CSS, and JavaScript are all neatly encapsulated.
 ## What makes technology fun?
 
 This is a complex philosophical question and I'm writing this on a Saturday
-afternoon so I'll cheat a bit and just cut the gordian knot by saying
+afternoon so I'll cheat a bit and just cut the Gordian knot by saying
 "simplicity is fun" and conversely, "complexity is not fun".
 
 Every one loves new projects. Why? Because they're simple! We can dive in and
